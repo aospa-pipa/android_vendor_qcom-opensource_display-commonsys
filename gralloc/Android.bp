@@ -4,6 +4,8 @@ cc_library_shared {
     cflags: [
         "-Wno-sign-conversion",
         "-DLOG_TAG=\"qtigralloc\"",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
     ],
     shared_libs: [
          "liblog",
